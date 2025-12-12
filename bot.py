@@ -1,4 +1,6 @@
 import os
+print("RIOT_API_KEY:", os.environ.get("RIOT_API_KEY"))
+import os
 import discord
 from discord.ext import commands
 import requests
